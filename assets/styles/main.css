@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,21 @@
+// ===> Importing Variables
+@use "./variables" as *;
+
+// ===> Resetting default browser styling
+@mixin reset-browser {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@mixin html-style {
+    font-size: $font-size;
+    scroll-behavior: smooth;
+}
+@mixin body-style {
+    line-height: 1.5;
+    font-size: 1.6rem;
+    font-family: $font-family;
+}

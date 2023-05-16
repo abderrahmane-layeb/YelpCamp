@@ -1,0 +1,19 @@
+// Import Variables 
+@use "./helpers/variables" as *;
+
+// Import Mixins 
+@use "./helpers/mixins" as *;
+
+* {
+    @include reset-browser;
+}
+
+html {
+    @include html-style;
+}
+
+body {
+    @include body-style;
+}
+
+//////////////////////////////////
